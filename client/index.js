@@ -19,8 +19,8 @@ ReactDOM.render(
 import store, { gotMessagesFromServer } from './store';
 
 const unsubscribe = store.subscribe(function () {
-  console.log('----------------');
-  console.log('State changed!!', store.getState());
+  // console.log('----------------');
+  // console.log('State changed!!', store.getState());
 });
 
 store.dispatch(gotMessagesFromServer([{ author: 'Milton', content: 'Hey @channel' }]));

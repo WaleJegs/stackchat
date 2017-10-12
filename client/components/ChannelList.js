@@ -25,8 +25,8 @@ export default class ChannelList extends Component {
 
   render () {
     const messages = this.state.messages;
-    console.log(messages);
-    console.log(RANDOM_CHANNEL.id);
+    // console.log(messages);
+    // console.log(RANDOM_CHANNEL.id);
     return (
       <ul>
         <li>
