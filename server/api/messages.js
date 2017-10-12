@@ -1,5 +1,6 @@
 const router = require('express').Router();
-const { Message, Author } = require('../db/models');
+const Message = require('../db/models').Message;
+const Author = require('../db/models').Author;
 
 module.exports = router;
 
